@@ -1,0 +1,72 @@
+.container {
+  position: relative;
+  padding: 0px 15px;
+  width: 100%;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.dataContainer {
+  position: relative;
+  right: 0;
+  left: 0;
+  margin: auto;
+  position: relative;
+  border-radius: 10px;
+  min-width: 300px;
+  max-width: 360px;
+  cursor: pointer;
+}
+
+.title {
+  color: orange;
+  padding: 0;
+  margin: 0;
+}
+
+.message {
+  position: relative;
+  height: 15px;
+}
+
+.textOne {
+  position: absolute;
+  background-color: #0e151c;
+  color: white;
+  left: 0;
+  right: 0;
+  margin: auto;
+  animation-name: myAnimation;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+
+}
+
+.textTwo {
+  position: absolute;
+  background-color: #0e151c;
+  color: white;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 50;
+}
+
+@keyframes myAnimation {
+  0% {
+    z-index: 1;
+  }
+
+  33% {
+    z-index: 60;
+  }
+
+  67% {
+    z-index: 1;
+  }
+
+  100% {
+    z-index: 60;
+  }
+}

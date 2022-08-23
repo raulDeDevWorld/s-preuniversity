@@ -1,0 +1,43 @@
+.header {
+    position: relative;
+    background-color: #15202B;
+    width: 100vw;
+    min-width: 360px;
+    height: 70px;
+    padding: 0px 15px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000000;
+}
+
+.logo {
+    height: 40px;
+    z-index: 100;
+}
+.icon {
+    margin-bottom: 17px;
+    height: 17px;
+    display: flex;
+}
+
+.icon :nth-child(n) {
+    height: 15px;
+    width: 15px;
+    border-radius: 15px;
+    margin-right: 5px;
+}
+
+.icon :nth-child(1) {
+    background-color: red;
+}
+
+.icon :nth-child(2) {
+    background-color: yellow;
+}
+
+.icon :nth-child(3) {
+    background-color: rgb(153, 255, 0);
+    margin-right: 0px;
+}

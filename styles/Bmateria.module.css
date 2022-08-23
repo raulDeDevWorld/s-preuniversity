@@ -1,0 +1,128 @@
+.container {
+    position: relative;
+    /* background-color: blue; */
+    padding-top: 90px;
+    padding-bottom: 70px;
+    height: 100%;
+    min-height: 640px;
+    width: 100%;
+    min-width: 360px;
+    display: flex;
+    flex-direction: column;
+    /* centrado vertical */
+    justify-content: center;
+    /* centrado-horizontal */
+    align-items: center;
+    color: white;
+}
+.itemBox {
+    position: relative;
+    padding: 0px 15px;
+    width: 100%;
+}
+.number {
+    padding-right: 15px;
+}
+.ask {
+    position: relative;
+    text-align: left;
+    width: 100%;
+    display: block;
+    font-size: 12px;
+    list-style: none;
+    color: #00F0FF;
+    
+}
+.options {
+    padding-left: 25px;
+    text-align: left;
+    list-style: none;
+    color: white;
+    transition: all .5s;
+}
+.norespuesta {
+    color: #ffffff80;
+}
+
+/* style image see */
+.seeRes {
+    height: 40px;
+    width: 40px;
+    position: fixed;
+    bottom: 55px;
+    right: 15px;
+    transition: all .5s;
+}
+.seeImgRes {
+    background-image: url(../public/seeRes.svg);
+    background-size: 40px;
+}
+.noSeeImgRes {
+    background-image: url(../public/noSeeRes.svg);
+    background-size: 40px;
+}
+
+
+
+/* Item data */
+.itemData {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: #00F0FF;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #00F0FF;
+}
+
+
+
+.selectDifficult {
+    width: 100%;
+    text-align: end;
+}
+.buttonDifficult {
+    background-color: rgb(130, 130, 130);
+    border: 1px solid rgb(130, 130, 130);
+    border-radius: 2px;
+    margin-left: 5px;
+}
+.buttonDifficultActive {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+}
+.buttonDifficultSelect {
+    background-color: transparent;
+    border: 1px solid #00F0FF;
+    color: #00F0FF;
+}
+/* 
+.itemIndex {
+    position: relative;
+    background-color: transparent;
+    border: 2px solid #ffffff3c;
+
+    color: #00F0FF;
+    font-size: 1em;
+    font-weight: 400;
+    text-align: center;
+    
+    
+    width: 100px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.itemIntentos {
+    position: relative;
+    background-color: transparent;
+    border: 2px solid #ffffff3c;
+
+    color: #00F0FF;
+    font-size: 1em;
+    font-weight: 400;
+    text-align: center;
+    
+    
+    width: 100px;
+    padding: 10px;
+    border-radius: 5px;
+} */

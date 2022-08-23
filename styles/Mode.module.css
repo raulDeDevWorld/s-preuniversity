@@ -1,0 +1,54 @@
+.success {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 70px;
+    /* background-color: #1eff00; */
+    background-color: transparent;
+    border-bottom: 1px solid transparent;
+    color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    animation-name: animationGreen;
+    animation-duration: 6s;
+    animation-delay: 0;
+    z-index: 100000000;
+    padding: 1px 0;
+
+}
+.error {
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    top: 0;
+    /* background-color: red; */
+    background-color: transparent;
+    border-bottom: 1px solid transparent;
+    font-size: 16px;
+    color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    animation-name: animationRed;
+    animation-duration: 6s;
+    animation-delay: 0;
+    z-index: 100000000;
+    padding: 1px 0;
+}
+@keyframes animationRed {
+    0% {background-color: transparent; color: transparent}
+    20% {background-color: #0e151c; border-bottom: 1px solid red; color: red}
+    80% {background-color: #0e151c; border-bottom: 1px solid red; color: red}
+    100% {background-color: transparent; border-bottom: 1px solid transparent; color: transparent}
+  }
+  @keyframes animationGreen {
+    0% {background-color: transparent; color: transparent}
+    20% {background-color: #0e151c; border-bottom: 1px solid #1eff00;; color: #1eff00;}
+    80% {background-color: #0e151c; border-bottom: 1px solid #1eff00;; color: #1eff00;}
+    100% {background-color: transparent; border-bottom: 1px solid transparent; color: transparent}
+  }
+

@@ -1,0 +1,83 @@
+
+.container {
+  position: relative;
+  /* background-color: blue; */
+  padding-top: 90px;
+  padding-bottom: 70px;
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 100%;
+  min-height: 640px;
+  width: 100%;
+  min-width: 360px;
+  display: flex;
+  flex-direction: column;
+  /* centrado vertical */
+  justify-content: center;
+  /* centrado-horizontal */
+  align-items: center;
+  color: white;
+  font-size: 14px;
+}
+
+.container > :nth-child(2) {
+  border-bottom: 1px solid #ffffff11;
+}
+.container > :nth-child(3) {
+  border-bottom: 1px solid #ffffff11;
+}
+.presentation {
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  color: #00F0FF;
+}
+.presentation :nth-child(1) {
+  border-left:  1px solid red;
+  padding-left: 10px;
+}
+
+.robot {
+  width: 130px;
+  height: 185px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.progress {
+  width: 100%;
+  padding: 15px 0;
+
+
+}
+.overallProgress {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  color: #00F0FF;
+}
+.overallProgress span{
+  border-left:  1px solid red;
+  padding-left: 10px;
+}
+.specificProgress {
+  text-align: left;
+  /* background-color: #0e151c; */
+}
+.specificProgressItem {
+  margin: 20px 0;
+  text-align: left;
+}
+
+
+
+
+
+
+
+

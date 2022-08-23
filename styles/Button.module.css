@@ -1,0 +1,93 @@
+.button {
+    position: relative;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+    width: 90%;
+    min-width: 140px;
+    padding: 5px 1px; 
+    border-radius: 5px;        
+    
+    transition-duration: .5s;
+}
+.buttonPrimary {
+    color: white;
+    background-color: #205054;
+    border: 2px solid #16b0bb;
+}
+.buttonPrimary:hover {
+    color: white;
+    background-color: #205054;
+    border: 2px solid #16b0bb;
+}
+.buttonSecondary {
+    color: #00F0FF;
+    background-color: #15202B;
+    border: 2px solid #ffffff3c;
+}
+.buttonSecondary:hover {
+    color: white;
+    background-color: #205054;
+    border: 2px solid #16b0bb;
+}
+
+
+.buttonGetPremium {
+    padding: 0;
+    color: white;
+    background-color: #00000000;
+    border: 2px solid #3FC500;
+}
+
+
+
+.buttonBlackFont {
+    width: 90%;
+    min-width: 140px;
+    color: #00F0FF;
+    font-size: 14px;
+    font-weight: 400;
+    background-color: #15202B;
+    border: 2px solid #ffffff3c;
+}
+.buttonBlackFont:hover {
+    color: white;
+    background-color: #205054;
+    border: 2px solid #16b0bb;
+}
+.buttonBlackFontColorWhite {
+    width: 90%;
+    min-width: 140px;
+    color: #ffffff;
+    background-color: #486bad3c;
+    border: 2px solid #486bad3c;
+}
+.buttonBlackFontColorWhite:hover {
+    color: #003450;
+    background-color: #00F0FF;
+    border: 2px solid #000000;
+}
+.successButton {
+    width: 100%;
+    min-width: 140px;
+    color: #ffffff;
+    background-color: #3FC500;
+    border: 2px solid #3FC500;
+
+    transition-duration: .3s;
+}
+
+.successButton:active {
+    color: #3FC500;
+    background-color: #0e151c;
+    border: 2px solid #3FC500;
+}
+.buttonSpecial {
+    position: absolute;
+    color: white;
+    background-color: rgba(0, 52, 80, .7);
+    background-image: url(../public/whatsapp.svg);
+    background-repeat: no-repeat;
+    background-position: 5px 3px;
+    background-size: 18px; 
+}

@@ -1,0 +1,198 @@
+.container {
+  position: relative;
+  /* background-color: blue; */
+  padding-top: 90px;
+  padding-bottom: 70px;
+  height: 100%;
+  min-height: 640px;
+  width: 100%;
+  min-width: 360px;
+  display: flex;
+  flex-direction: column;
+  /* centrado vertical */
+  justify-content: space-around;
+  /* centrado-horizontal */
+  align-items: center;
+  color: white;
+  font-size: 14px;
+}
+
+
+.list {
+  list-style: none;
+  padding: 0 25px;
+}
+
+.li {
+  margin-top: 5px;
+  text-align: left;
+}
+
+
+
+
+
+.buttonContent {
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttonContent :nth-child(1) {
+  width: 50%;
+  padding: 10px 0;
+  color: #3FC500;
+
+}
+
+.buttonContent :nth-child(2) {
+  width: 50%;
+  padding: 10px 0;
+  background-color: #3FC500;
+}
+
+.buttonsContainer {
+  display: flex;
+  flex-direction: column;
+  height: 40%;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.enlace {
+  color: white;
+  font-size: 10px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+
+.codeInfoContainer :nth-child(n) {
+  display: block;
+  height: 35px;
+}
+
+.codeInfoContainer :nth-child(1) {
+  color: white;
+}
+
+.codeInfoContainer :nth-child(2) {
+  color: #00F0FF;
+}
+
+.codeInfoContainer :nth-child(3) {
+  color: white;
+}
+
+
+.form {
+  width: 100%;
+  text-align: center;
+
+}
+
+.modalBoot {
+  width: 250px;
+  height: 130px;
+  object-fit: cover;
+  object-position: top;
+}
+
+.modalText {
+  color: #00F0FF;
+}
+
+.input {
+  border: none;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  padding: 15px;
+  border-radius: 5px;
+  width: 90%;
+  color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0);
+  margin-top: 10px;
+  text-align: center;
+  height: 18px;
+  border-radius: 3px;
+  margin-bottom: 15px;
+}
+
+.code {
+  display: inline-block;
+  font-size: 14px;
+  width: 90%;
+  background-color: #003450;
+  color: orange;
+  margin-top: 10px;
+  text-align: center;
+  height: 18px;
+  border-radius: 3px;
+  margin-bottom: 15px;
+}
+
+.modalContainer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: -1000px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  z-index: 100000;
+  background-color: rgba(0, 0, 0, 0.616);
+  z-index: 100000000;
+}
+
+.contBlue {
+  background-color: aliceblue;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+  height: 270px;
+  border-radius: 10px;
+  color: white;
+}
+
+.true {
+  top: 0;
+}
+
+.perfil {
+  width: 250px;
+  height: 130px;
+  object-fit: cover;
+  object-position: top;
+  z-index: 100000000000000000000000;
+}
+
+.x {
+  position: absolute;
+  padding: 10px 15px;
+  border-radius: 15px 10px;
+  right: -15px;
+  top: -15px;
+  background-color: black;
+  color: orange;
+  cursor: pointer;
+}
+
+.textModal {
+  background-color: black;
+  color: orange;
+  padding: 5px;
+  width: 97%;
+  margin-top: 20px;
+}
+
+.span {
+  color: aliceblue;
+}

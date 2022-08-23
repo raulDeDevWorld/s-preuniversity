@@ -1,0 +1,339 @@
+.container {
+    position: relative;
+    /* background-color: blue; */
+    padding-top: 90px;
+    padding-bottom: 50px;
+    height: 100%;
+    min-height: 640px;
+    width: 100%;
+    min-width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
+    justify-content: center;
+    color: white;
+    font-size: 25px;
+}
+.robot {
+    margin: 10px;
+    width: 250px;
+    height: 110px;
+    object-fit:cover;
+    object-position: center;
+}
+/* Result Container */
+.blackContainer {
+    position: relative;
+    margin: 10px 15px;
+    height: 70%;
+    min-height: 400px;
+    max-height: 450px;
+}
+.resultContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+.review {
+    top: 19px;
+    position: absolute;
+    color: #0e151c;
+    text-align: center;
+    font-size: 14px;
+    animation-name: animationReview;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-duration: 1.5s;
+}
+@keyframes animationReview {
+    0% {
+        color: #0e151c;
+    }
+
+    30% {
+        color: #00F0FF;
+    }
+    70% {
+        color: #00F0FF;
+    }
+    100% {
+        color: transparent;
+    }
+}
+.resulText {
+    color: #0e151c;
+    margin: 5px;
+    height: 20px;
+    font-size: 0;
+}
+.approved {
+    animation-name: animationApproved;
+    animation-fill-mode: forwards;
+    animation-duration: .5s;
+    animation-delay: 2s;
+}
+@keyframes animationApproved {
+    0% {
+        color: #0e151c;
+    }
+
+    50% {
+        color: rgb(0, 233, 0);
+    }
+
+    100% {
+        color: rgb(0, 233, 0);
+        font-size: 16px;
+    }
+}
+.reprobate {
+    animation-name: animationReprobate;
+    animation-fill-mode: forwards;
+    animation-duration: .5s;
+    animation-delay: 1.3s;
+}
+@keyframes animationReprobate {
+    0% {
+        color: #0e151c;
+    }
+
+    50% {
+        color: rgb(255, 0, 0);
+    }
+
+    100% {
+        color: rgb(255, 0, 0);
+        font-size: 16px;
+    }
+}
+.message {
+    margin: 5px;
+    color: #0e151c;
+    font-size: 16px;
+    animation-name: animationMessage;
+    animation-fill-mode: forwards;
+    animation-duration: .5s;
+    animation-delay: 3s;
+}
+@keyframes animationMessage {
+    0% {
+        color: #0e151c;
+    }
+
+    50% {
+        color: #ffffff;
+    }
+
+    100% {
+        color: #00F0FF;
+    }
+}
+.perfectMessage {
+    margin: 5px;
+    color: #0e151c;
+    font-size: 16px;
+    animation-name: animationPerfectMessage;
+    animation-fill-mode: forwards;
+    animation-duration: .5s;
+    animation-delay: 3s;
+}
+@keyframes animationPerfectMessage {
+    0% {
+        color: #0e151c;
+    }
+
+    50% {
+        color: #ffffff;
+    }
+
+    100% {
+        color: yellow;
+    }
+}
+.emogi {
+    display: inline-block;
+    font-size: 0px;
+    animation-name: animationEmogi;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-duration: 2.5s;
+    animation-delay: 3s;
+}
+@keyframes animationEmogi {
+    0% {
+        font-size: 16px;
+    }
+
+    30% {
+        transform: rotate(0deg);
+    }
+
+    45% {
+        transform: rotate(10deg);
+    }
+
+    55% {
+        transform: rotate(-15deg);
+    }
+
+    70% {
+        transform: rotate(15deg);
+    }
+
+    85% {
+        transform: rotate(-10deg);
+    }
+
+    100% {
+        font-size: 16px;
+        transform: rotate(0deg);
+    }
+}
+/* Detail Result Container */
+.detailResultContainer{
+    width: 100%;
+}
+.detailText {
+    display: flex;
+    justify-content: space-between;
+    color: #0e151c;
+    text-align: left;
+    font-size: 12px;
+    margin: 12px 0;
+    animation-name: animationDetailText;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-duration: 2.5s;
+}
+.materia {
+    animation-delay: 3.3s;
+}
+.errores {
+    animation-delay: 3.6s;
+}
+.aciertos {
+    animation-delay: 3.9s;
+}
+.noRes {
+    animation-delay: 4.2s;
+}
+.verRes {
+    animation-delay: 4.5s;
+}
+@keyframes animationDetailText {
+    0% {
+        color: #0e151c;
+    }
+
+    50% {
+        color: #ffffff;
+    }
+
+    100% {
+        color: #00F0FF;
+    }
+}
+
+
+
+.progressBarPorcent {
+    width: 47%;
+    height: 10px;
+    background-color: #0e151c;
+    border-radius: 10px;
+    overflow: hidden;
+    animation-name: animationProgressBarPorcent;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-duration: 2.5s;
+    animation-delay: 6.5s;
+}
+@keyframes animationProgressBarPorcent  {
+    0% {
+        background-color: #0e151c;
+    }
+
+    50% {
+        background-color: #365b74;
+    }
+
+    100% {
+        background-color: #365b74;
+    }
+}
+.porcentErrors {
+    height: 10px;
+    border-radius: 10px;
+    background: #0e151c;
+    animation-name: animationPorcentErrors;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-duration: 2.5s;
+    animation-delay: 6.5s;
+}
+@keyframes animationPorcentErrors {
+    0% {
+        background-color: #0e151c;
+    }
+
+    50% {
+        background-color: red;
+    }
+
+    100% {
+        background-color: red;
+    }
+}
+.porcentSuccess {
+    height: 10px;
+    border-radius: 10px;
+    background: #0e151c;
+    animation-name: animationPorcenSuccess;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-duration: 2.5s;
+    animation-delay: 6.5s;
+}
+@keyframes animationPorcenSuccess  {
+    0% {
+        background-color: #0e151c;
+    }
+
+    50% {
+        background-color: #3FC500;
+    }
+
+    100% {
+        background-color: #3FC500;
+    }
+}
+.porcentUndefined {
+    height: 10px;
+    border-radius: 10px;
+    background: #0e151c;
+    animation-name: animationPorcentUndefined;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-duration: 2.5s;
+    animation-delay: 6.5s;
+}
+@keyframes animationPorcentUndefined  {
+    0% {
+        background-color: #0e151c;
+    }
+
+    50% {
+        background-color: #6cafbb;
+    }
+
+    100% {
+        background-color: #6cafbb;
+    }
+}
+
+
+
+
+
