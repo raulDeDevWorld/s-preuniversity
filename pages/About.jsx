@@ -6,7 +6,7 @@ import style from '../styles/About.module.css'
 
 function About() {
     return (
-        <PageLayout>
+        <PageLayout>   
             <div className={style.container}>
             <img src="logo-hazlo-simple.svg" className={style.logo} alt="logo" />
                 <h3 className={style.subtitle}>Acerca de:</h3>
